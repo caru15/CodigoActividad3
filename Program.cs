@@ -25,6 +25,7 @@ namespace CodigoActividad3
             Console.WriteLine("CLÍNICA VETERINARIA: SUPER ANIMALS");
             //Agregar Datos para correr la aplicación y hacer que funcione correctamente
             //Considerar Casos de Prueba para el problema.
+            //Hola a todas las mujeres mala onda!! jajaja
             do
             {
                 Console.WriteLine();
