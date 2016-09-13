@@ -19,18 +19,12 @@ namespace CodigoActividad3
             mascota masco;
             int opcion=0;
             int cod=-1;
-            ListaClientes ListaC = new ListaClientes();
+            List<cliente> ListaC = new List<cliente>();
             
             Console.WriteLine();            
             Console.WriteLine("CLÍNICA VETERINARIA: SUPER ANIMALS");
             //Agregar Datos para correr la aplicación y hacer que funcione correctamente
-            //Considerar Casos de Prueba para el problema.
-
-            // Otro comentario::
-            // 2do comentario
-
-            //Hola a todas las mujeres mala onda!! jajaja
-            //Como rompimos las bolas con git!! jjajaja
+            //Considerar Casos de Prueba para el problema.          
 
             do
             {
@@ -53,14 +47,14 @@ namespace CodigoActividad3
                     {
                         Console.WriteLine("----------Ingrese datos de cliente----------");
                         Console.Write("Ingrese Nombre: ");
-                        String n =(Console.ReadLine());
+                        string n =(Console.ReadLine());
                         Console.Write("Ingrese telefono: ");
-                        String t=(Console.ReadLine());
+                        string t=(Console.ReadLine());
                         Console.Write("Ingrese Dni: ");
-                        String d=(Console.ReadLine());
+                        string d=(Console.ReadLine());
                         Console.WriteLine();
-                        cli = new cliente(n,t,d);
-                        String resp="SI";
+                        ListaC.Add(new cliente(n,t,d));
+                        string resp="SI";
                         Console.WriteLine("----------Ingrese datos de mascota ----------");
                         while (resp != "NO")
                         {
@@ -79,13 +73,13 @@ namespace CodigoActividad3
                             Console.WriteLine();
                             //masco.Nombre();
                             Console.WriteLine("------------------------------------------------------");
-                            cli.agregarMascota(masco);
+                            //cli.agregarMascota(masco);
                             //cli.debeVolver;
                                                     
                         }
                             
-                        ListaC.AgregarCliente(cli);
-                        ListaC.MuestraClientes(); //ESTO HICE PARA VER SI M LOS GUARDABA A LOS CLIENTES
+                        //ListaC.AgregarCliente(cli);
+                        //ListaC.MuestraClientes(); //ESTO HICE PARA VER SI M LOS GUARDABA A LOS CLIENTES
                         break;
                     }
                     case 2:

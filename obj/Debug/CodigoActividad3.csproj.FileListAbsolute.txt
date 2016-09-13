@@ -10,3 +10,9 @@ C:\Users\casa\Documents\SharpDevelop Projects\CodigoActividad3\bin\Debug\CodigoA
 C:\Users\casa\Documents\SharpDevelop Projects\CodigoActividad3\obj\Debug\CodigoActividad3.csprojResolveAssemblyReference.cache
 C:\Users\casa\Documents\SharpDevelop Projects\CodigoActividad3\obj\Debug\CodigoActividad3.exe
 C:\Users\casa\Documents\SharpDevelop Projects\CodigoActividad3\obj\Debug\CodigoActividad3.pdb
+C:\Users\maria_000\Documents\GitHub\CodigoActividad3\obj\Debug\CodigoActividad3.csprojResolveAssemblyReference.cache
+C:\Users\maria_000\Documents\GitHub\CodigoActividad3\obj\Debug\CodigoActividad3.exe
+C:\Users\maria_000\Documents\GitHub\CodigoActividad3\bin\Debug\CodigoActividad3.exe.config
+C:\Users\maria_000\Documents\GitHub\CodigoActividad3\bin\Debug\CodigoActividad3.exe
+C:\Users\maria_000\Documents\GitHub\CodigoActividad3\bin\Debug\CodigoActividad3.pdb
+C:\Users\maria_000\Documents\GitHub\CodigoActividad3\obj\Debug\CodigoActividad3.pdb

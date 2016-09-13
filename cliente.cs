@@ -27,10 +27,11 @@ namespace CodigoActividad3
 //			mascotas = new List<mascota>();
 //		}
 		
-		public cliente(string nombre, string telefono)
+		public cliente(string nombre, string telefono,string dni)
 		{
 			this. Telefono = telefono;
 			this. Nombre = nombre;
+			this.dni = dni;
 			mascotas = new List<mascota>();
 		}
 		
